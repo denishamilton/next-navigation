@@ -1,0 +1,18 @@
+.header-menu{
+    background-color: antiquewhite;
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    a{
+        color: black;
+    }
+}
+
+.header-menu__list{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 1rem;
+}
