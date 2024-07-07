@@ -1,9 +1,7 @@
-import { Inter, Inknut_Antiqua, Poppins } from "next/font/google";
+import { Poppins } from "next/font/google";
 import "./globals.css";
 import Header from "./components/Header";
 
-const inter = Inter({ subsets: ["latin"] });
-const inknutAntiqua = Inknut_Antiqua({ subsets: ["latin"], weight: "400" });
 const poppins = Poppins({ subsets: ["latin"], weight: "400" });
 
 export const metadata = {
